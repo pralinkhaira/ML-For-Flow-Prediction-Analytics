@@ -33,6 +33,15 @@ pip install pandas scikit-learn
 
 5. Deployment: Once you have selected and optimized the best-performing model, you can deploy it in a real-time production environment for use in process control or anomaly detection.
 
+## Output
+```
+Mean Squared Error: 1.262177448353619e-29
+Mean Absolute Error: 3.552713678800501e-15
+```
+
+<a href="https://imgur.com/RqkU2Dm.png"><img src="https://imgur.com/RqkU2Dm.png" title="source: imgur.com" /></a>
+
+
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
