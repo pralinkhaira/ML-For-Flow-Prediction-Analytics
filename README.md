@@ -98,6 +98,20 @@ Here are the MSE and MAE observations for each model:
 
 <a href="https://imgur.com/RVwhJaW.png"><img src="https://imgur.com/RVwhJaW.png" title="source: imgur.com" /></a>
 
+## Update Note 
+
+### Update V1.1 - 13 July 2023
+
+1. Model Selection: Initially, the project included a limited set of models for training and evaluation. However, based on feedback and further research, additional models were incorporated into the project. The updated list of models includes Linear Regression, Random Forest, Lasso Regression, Ridge Regression, Gradient Boosting, AdaBoost, Support Vector Regression (SVR), K-Nearest Neighbors (KNN), Multi-Layer Perceptron (MLP), and XGBoost.
+
+2. Evaluation Metrics: The evaluation metrics used for assessing model performance were expanded to include Mean Squared Error (MSE) and Mean Absolute Error (MAE). These metrics provide a more comprehensive assessment of model accuracy and prediction quality.
+
+3. Tabular Presentation: To enhance readability and clarity, the observations for each model were presented in a tabular form, highlighting the MSE and MAE values.
+
+4. Anomaly Note: A special note has been added to highlight the perfect predictions achieved by SVR and KNN models, with 0.0 errors. It is important to exercise caution and thoroughly investigate these results for potential issues, such as overfitting or data anomalies.
+
+These updates aim to improve the overall quality and comprehensiveness of the project. The code, observations, and the accompanying `readme.md` file have been revised accordingly to reflect these changes. Please refer to the updated content for the most recent information.
+
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
